@@ -1,0 +1,310 @@
+
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html
+{
+  /* scroll-behavior: smooth; */
+  scroll-behavior: auto;
+}
+.wrapper 
+{
+  width: 100%;
+  min-height: 300px;
+  border: 1px solid black;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+}
+nav
+{
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(26, 19, 10);
+  
+  position: fixed;
+  top: 0;
+  overflow: hidden; 
+  display: flex;
+}
+nav ul
+{
+  width: 100%;
+  padding: 20px;
+}
+nav ul li
+{
+  list-style-type: none;
+  display: inline-block;
+}
+nav ul li a
+{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: white;
+}
+nav ul li a:hover
+{
+  background-color: blanchedalmond;
+  color: blue;
+  padding: 5px;
+}
+#section1
+{
+  width: 100%;
+  height: 100vh;
+  padding-top: 60px;
+  background-color: #11009E;
+ 
+}
+#section1 h1
+{
+  text-align: center;
+  padding-top: 65px;
+  color: white;
+}
+#section1 img{
+  
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+}
+#section2
+{
+  width: 100%;
+  height: 100vh;
+  padding-top: 60px;
+  background-color:#11009E;
+}
+#section2 h1
+{
+  text-align: center;
+  padding-top: 55px;
+  color: white;
+}
+#section1 .text
+{
+  position: relative;
+}
+#section1 .text h4{
+  position: absolute;
+  padding: 20px;
+  font-size: 2.4em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#section1 .text h1{
+  position: absolute;
+  color:yellow;
+  text-shadow: 2px 2px rgb(0, 0, 255);
+  
+}
+#section1 .text h2{
+  position: absolute;
+  color: yellow;
+  text-shadow: 3px 3px rgb(34, 0, 255);
+}
+#section1 .text h3{
+  position: absolute;
+  text-shadow:2px 2px #2610ea;
+}
+
+.about
+{
+  width: 85%;
+  height: 500px;
+  margin-top: 20px;
+  margin-left: 100px;
+  /* border: 2px solid yellow; */
+  
+}
+.photo
+{
+  width: 40%;
+  height: 400px;
+  /* border: 3px solid yellow; */
+  float: left;
+  margin-top: 30px;
+  padding-left: 30px;
+  border-radius: 20px;
+  
+}
+.photo img{
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.info
+{
+  width: 60%;
+  height: 400px;
+  /* border: 3px solid yellow; */
+  float :right;
+  margin-top: 30px;
+  padding-left: 40px;
+  border-radius: 20px;
+}
+.info pre
+{
+  color: white;
+  margin-top: 20px;
+  font-size: 1.8vw;
+}
+#section3
+{
+  width: 100%;
+  height: 100vh;
+  padding-top: 90px;
+  background-color: #2318e9;
+  /* align-items: center; */
+}
+#section3 h1
+{
+  text-align: center;
+  padding-top: 60px;
+  color: white;
+}
+.blogs
+{
+  width: 100%;
+  float: right;
+
+  /* border: 1px solid white; */
+}
+.b1
+{
+  background-color:  rgb(22, 22, 33);
+  width: 20%;
+  float: left;
+  height: 200px;
+  margin-left: 240px;
+  border: 2px solid yellow;
+  border-radius: 20px;
+  /* padding:2px; */
+}
+.b2
+{
+  background-color: rgb(22, 22, 33);
+  width: 20%;
+  height: 200px;
+  float: left;
+  border: 1px solid white;
+  margin-left: 70px;
+  border: 2px solid yellow;
+  border-radius: 20px;
+}
+.b3
+{
+  background-color: rgb(22, 22, 33);
+  width: 20%;
+  height: 200px;
+  float: left;
+  border: 2px solid yellow;
+  margin-left: 70px;
+  border-radius: 20px;
+}
+#section4
+{
+  width: 100%;
+  height: 100vh;
+  padding-top: 90px;
+  background-color: #11009E;
+}
+#section4 h1
+{
+  text-align: center;
+  padding-top: 35px;
+  color: white;
+}
+.proo
+{
+  width: 80%;
+  /* border: 2px solid yellow; */
+  height: 400px;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 50px;
+}
+.pro1
+{
+  width: 40%;
+  border: 2px solid yellow;
+  height: 300px;
+  float: left;
+  border-radius: 20px;
+}
+.pro2
+{
+  width: 40%;
+  border: 4px solid yellow;
+  height: 300px;
+  float: right;
+  border-radius: 20px;
+}
+.pro2 img
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border-color: blue;
+
+ /* padding: 10px; */
+}
+#section5
+{
+  width: 100%;
+  height: 100vh;
+  padding-top: 250px;
+  background-color:#1c08ca;
+  color: azure;
+  display: flex;
+  padding-left: 200px;
+   
+  
+}
+ #section5 .conlo
+{
+  width: 100%;
+  min-height: 200px;
+
+  
+}
+.conlo h1
+{
+  padding-left: 20px;
+  font-size: 2.5em;
+  color: yellow;
+}
+.conlo .con 
+{
+  width: 60%;
+  float: left;
+}
+.con pre
+{
+  
+  font-size: 1.4vw;
+ 
+  color: white;
+}
+.conlo .lo 
+{
+  width: 30%;
+  margin-left: 80px;
+  float: right;
+  padding-top: 10px;
+
+}
+.lo a{
+ padding-top: 20px;
+  padding: 20px;
+  font-size: 2.4em;
+  color: white;
+}
